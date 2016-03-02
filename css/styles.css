@@ -93,7 +93,8 @@ nav.shift ul li a:hover:after {
   height: 100px;
   width: 200px;
   margin: 10px;
-  float: left; }
+  float: left;
+  border: 1px solid black; }
 
 .box1, .box3, .box7, .box10 {
   background-color: red; }
@@ -107,5 +108,30 @@ nav.shift ul li a:hover:after {
 .box1:hover {
   transform: scale(1.25, 1.33);
   transition: all 2s; }
+
+.box2:hover {
+  transform: translate(50px, 130px);
+  transition: all 1s; }
+
+.box3:hover {
+  transform: rotate(1080deg);
+  transition: all 3s; }
+
+.box4:hover {
+  transform-origin: bottom left;
+  transform: rotate(80deg);
+  transition: all 3s; }
+
+.box5:hover {
+  transform: skewX(12deg);
+  transition: all 3s; }
+
+.box6:hover {
+  transform: skewY(12deg);
+  transition: all 3s; }
+
+.box7:hover {
+  transform: rotate(90deg) scale(1.5) translateY(-50%) translateX(50%);
+  transition: all 3s; }
 
 /*# sourceMappingURL=styles.css.map */
